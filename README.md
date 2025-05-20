@@ -1,3 +1,32 @@
+- [Introduction](#introduction)
+- [Repository Requirements](#repository-requirements)
+  - [Other Recommended General Repository Contents](#other-recommended-general-repository-contents)
+- [Documentation Standards](#documentation-standards)
+  - [README.md Content](#readmemd-content)
+  - [Code Documentation](#code-documentation)
+- [Licencing](#licencing)
+  - [Recommended Licences](#recommended-licences)
+    - [For Code Repositories](#for-code-repositories)
+    - [For Data Repositories](#for-data-repositories)
+    - [For Documentation](#for-documentation)
+  - [When to Use Each Licence](#when-to-use-each-licence)
+  - [Licence Compatibility Considerations](#licence-compatibility-considerations)
+  - [Adding a License to Your Repository](#adding-a-license-to-your-repository)
+  - [Special Considerations](#special-considerations)
+- [Version Control Practices](#version-control-practices)
+  - [Branching Strategy](#branching-strategy)
+  - [Commit Guidelines](#commit-guidelines)
+    - [Commit Messages](#commit-messages)
+    - [Commit Practices](#commit-practices)
+  - [Pull Requests and Reviews](#pull-requests-and-reviews)
+    - [Creating Pull Requests](#creating-pull-requests)
+    - [PR Template](#pr-template)
+    - [Code Review Process](#code-review-process)
+    - [Merging Guidelines](#merging-guidelines)
+  - [Tagging and Release Management](#tagging-and-release-management)
+  - [Resolving Conflicts](#resolving-conflicts)
+
+
 # Introduction
 
 These guidelines aim to establish best practices for managing GitHub repositories within the AAGI-AUS GitHub organisation. By following these standards, we ensure our work is reproducible, well-documented, and accessible to colleagues and collaborators. While these guidelines are language-agnostic, they incorporate principles from [rOpenSci](https://devguide.ropensci.org/) where relevant.
@@ -45,7 +74,7 @@ Choosing an appropriate license for your repository is essential to clarify how 
 
 ## Recommended Licences
 
-For our organization, we recommend the following licenses depending on the nature of your project:
+For more detail about licences, please refer to https://choosealicense.com/. For our organization, we recommend the following licenses depending on the nature of your project:
 
 ### For Code Repositories
 - **MIT License**: Simple and permissive, allowing others to use your code with minimal restrictions while still providing attribution.

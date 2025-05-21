@@ -37,6 +37,8 @@
 
 These guidelines aim to establish best practices for managing GitHub repositories within the AAGI-AUS GitHub organisation. By following these standards, we ensure our work is reproducible, well-documented, and accessible to colleagues and collaborators. While these guidelines are language-agnostic, they incorporate principles from [rOpenSci](https://devguide.ropensci.org/) where relevant.
 
+See the [AAGI-AUS GitHub Repository Setup Checklist](/checklist.md) for a summary of the essential repository setup.
+
 # Repository Requirements
 
 - Repositories need a name. The name should be descriptive and follow the naming conventions of the AAGI organisation. This may be a project name or an output name such as a package or pipeline.

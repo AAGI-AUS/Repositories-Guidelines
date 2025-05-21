@@ -1,6 +1,8 @@
 - [Introduction](#introduction)
 - [Repository Requirements](#repository-requirements)
   - [Other Recommended General Repository Contents](#other-recommended-general-repository-contents)
+- [Types of Repositories](#types-of-repositories)
+- [Repsitory Settings and GitHub Organisation settings](#repsitory-settings-and-github-organisation-settings)
 - [Documentation Standards](#documentation-standards)
   - [README.md Content](#readmemd-content)
   - [Code Documentation](#code-documentation)
@@ -52,6 +54,11 @@ Most of the AAGI-AUS repositories will fall into one of the following categories
 
 - A CONTRIBUTING file outlines how others can contribute to the project.
 - A CODE_OF_CONDUCT.md file explains expected behavior for contributors.
+
+# Repository Settings and GitHub Organisation settings
+- Repositories should be set to public unless there is a specific reason to keep them private (for example they contain sensitive data or code or are in development)
+- The AAGI-AUS GitHub organisation uses 'Teams' to manage access to repositories. Team members can be added to the appropriate teams.
+
 
 # Documentation Standards
 ## README.md Content

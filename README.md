@@ -1,12 +1,13 @@
 - [Introduction](#introduction)
 - [Repository Requirements](#repository-requirements)
-  - [Other Recommended General Repository Contents](#other-recommended-general-repository-contents)
 - [Types of Repositories](#types-of-repositories)
-- [Repsitory Settings and GitHub Organisation settings](#repsitory-settings-and-github-organisation-settings)
+  - [Other Recommended General Repository Contents](#other-recommended-general-repository-contents)
+- [Repository Settings and GitHub Organisation settings](#repository-settings-and-github-organisation-settings)
 - [Documentation Standards](#documentation-standards)
   - [README.md Content](#readmemd-content)
   - [Code Documentation](#code-documentation)
 - [Licencing](#licencing)
+  - [Summary](#summary)
   - [Recommended Licences](#recommended-licences)
     - [For Code Repositories](#for-code-repositories)
     - [For Data Repositories](#for-data-repositories)
@@ -46,14 +47,14 @@ These guidelines aim to establish best practices for managing GitHub repositorie
 Most of the AAGI-AUS repositories will fall into one of the following categories:
 - **Code Repositories**: These contain code for software, libraries, or tools. They should include a README, license, and documentation.
 - **Data Repositories**: These contain datasets, including raw data, processed data, and metadata. They should include a README, license, and documentation.
-- **Documentation Repositories**: These contain documentation for code or data. They should include a README, license, and documentation.
+- **Documentation Repositories**: These contain documentation for code or data, or may be presentations or similar. They should include a README, license, and documentation.
 
 > Note: These types are independent of the coding language used. 
 
 ## Other Recommended General Repository Contents
 
 - A CONTRIBUTING file outlines how others can contribute to the project.
-- A CODE_OF_CONDUCT.md file explains expected behavior for contributors.
+- A CODE_OF_CONDUCT.md file explains expected behaviour for contributors.
 
 # Repository Settings and GitHub Organisation settings
 - Repositories should be set to public unless there is a specific reason to keep them private (for example they contain sensitive data or code or are in development)
@@ -78,8 +79,7 @@ The README should include:
 
 ## Code Documentation
 
-Use a consistent documentation style appropriate for your language
-Document functions, classes, and methods with:
+Use a consistent documentation style appropriate for your language. Document functions, classes, and methods with:
 
 - Purpose description
 - Parameter descriptions
@@ -89,6 +89,13 @@ Document functions, classes, and methods with:
 # Licencing
 
 Choosing an appropriate license for your repository is essential to clarify how others can use, modify, and distribute your work. All repositories should include a LICENSE file in the root directory.
+
+## Summary
+
+- Try to use a permissive license (e.g., MIT, Apache 2.0) for code and data repositories where possible.
+- GRDC needs to be consulted before any code or data is made public.
+- Leave your repository unlicenced until an appropriate discussion has been had with all parties (often including GRDC manager for the investment).
+- Data that is CC-licenced should also be uploaded to the GRDC Data Catalogue and there should be a corresponding dataset line in the IPPO.
 
 ## Recommended Licences
 
@@ -103,7 +110,6 @@ For more detail about licences, please refer to https://choosealicense.com/. For
 - **Creative Commons licenses**:
   - **CC-BY 4.0**: Allows reuse with appropriate attribution
   - **CC-BY-SA 4.0**: Allows reuse with attribution, with derivatives sharing the same license
-  - **CC0**: Dedicates work to the public domain (for datasets where no copyright is desired)
 
 ### For Documentation
 - **CC-BY 4.0**: Preferred for most documentation
@@ -136,8 +142,8 @@ For more detail about licences, please refer to https://choosealicense.com/. For
 
 - **Dual licensing**: Consider dual licensing for specific use cases (e.g., GPL for open source use, commercial license for proprietary applications)
 - **Institutional policies**: Check if your institution has specific licensing requirements or preferences
-- **Funder requirements**: Some funding bodies mandate specific open-source licenses
-
+- **Funder requirements**: Some funding bodies mandate specific open-source licenses. 
+  - **GRDC**: In the case of AAGI, GRDC usually has at least partial ownership of the code and data produced by AAGI and projects supported by AAGI and should be consulted before any code or data is made public.
 
 # Version Control Practices
 

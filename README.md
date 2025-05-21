@@ -18,6 +18,9 @@
   - [Commit Guidelines](#commit-guidelines)
     - [Commit Messages](#commit-messages)
     - [Commit Practices](#commit-practices)
+  - [Documenting and Replying to Issues](#documenting-and-replying-to-issues)
+    - [Creating Issues](#creating-issues)
+    - [Replying to Issues](#replying-to-issues)
   - [Pull Requests and Reviews](#pull-requests-and-reviews)
     - [Creating Pull Requests](#creating-pull-requests)
     - [PR Template](#pr-template)
@@ -36,6 +39,14 @@ These guidelines aim to establish best practices for managing GitHub repositorie
 - Repositories need a name. The name should be descriptive and follow the naming conventions of the AAGI organisation. This may be a project name or an output name such as a package or pipeline.
 - Where applicable, repositories need a license. See the [licencing](#licencing) section for more information.
 - Repositories should have a README file that provides an overview of the project, how to install it, and how to use it.
+
+# Types of Repositories
+Most of the AAGI-AUS repositories will fall into one of the following categories:
+- **Code Repositories**: These contain code for software, libraries, or tools. They should include a README, license, and documentation.
+- **Data Repositories**: These contain datasets, including raw data, processed data, and metadata. They should include a README, license, and documentation.
+- **Documentation Repositories**: These contain documentation for code or data. They should include a README, license, and documentation.
+
+> Note: These types are independent of the coding language used. 
 
 ## Other Recommended General Repository Contents
 
@@ -77,7 +88,7 @@ Choosing an appropriate license for your repository is essential to clarify how 
 For more detail about licences, please refer to https://choosealicense.com/. For our organization, we recommend the following licenses depending on the nature of your project:
 
 ### For Code Repositories
-- **MIT License**: Simple and permissive, allowing others to use your code with minimal restrictions while still providing attribution.
+- **MIT License**: Simple and permissive, allowing others to use your code with minimal restrictions while still providing attribution. Many of the existing AAGI-AUS repositories use this license.
 - **GNU General Public License (GPL) v3**: Ensures that derivative works remain open source with the same license terms.
 - **Apache License 2.0**: Similar to MIT but with explicit patent grants and contribution terms.
 
@@ -148,12 +159,30 @@ For smaller projects or single-developer repositories, a simplified approach wit
 ### Commit Practices
 
 - Make small, focused commits that address a single issue or feature
+- Tag authors in commit messages to give credit*
 - Commit frequently to preserve your work and create a detailed project history
 - Amend commits or use interactive rebase to fix mistakes before pushing
 - Don't commit:
   - Generated files (add to `.gitignore`)
   - Large binary files (consider Git LFS instead)
   - Sensitive information (credentials, API keys, etc.)
+
+\* Optional/if applicable
+
+## Documenting and Replying to Issues
+### Creating Issues
+- Use issues to track bugs, feature requests, and tasks
+- Provide a clear title and description for each issue
+- Use labels to categorize issues (e.g., bug, enhancement, question)
+- Assign issues to team members for accountability*
+
+\* Optional/if applicable
+
+### Replying to Issues
+- Respond promptly to questions and comments
+- Use @mentions to notify team members or collaborators
+- Keep discussions professional, focused and relevant
+- If an issue is not relevant or cannot be resolved, consider closing it with a comment explaining why
 
 ## Pull Requests and Reviews
 

@@ -58,6 +58,7 @@ Most of the AAGI-AUS repositories will fall into one of the following categories
 - A CONTRIBUTING file outlines how others can contribute to the project.
 - A CODE_OF_CONDUCT.md file explains expected behaviour for contributors. We recommend adopting the [Contributor Covenant](https://www.contributor-covenant.org/), which is widely-used across open source projects and establishes clear standards for respectful collaboration.
 - A SECURITY.md file that explains the security policy, vulnerability reporting procedures, and disclosure process. This is especially important for repositories with data or authentication features.
+- Authenticated commits help ensure traceability and accountability: users are encouraged to sign their commits and configure GitHub authentication (e.g., SSH/GPG keys or tokens) for secure contributions.
 
 # Repository Settings and GitHub Organisation settings
 - Repositories should be set to public unless there is a specific reason to keep them private (for example they contain sensitive data or code or are in development)
@@ -248,3 +249,8 @@ Consider using a PR template with sections such as:
 - Pull from the target branch regularly to stay up-to-date
 - When conflicts occur, communicate with other contributors to resolve them
 - Consider using visual merge tools for complex conflicts
+
+## Using GitHub for collaboration and knowledge sharing
+- Extensive documentation can be added and maintained in the "Wiki" section of the repository, ensuring that both users and contributors have detailed information on installation, usage, and development
+- Questions, feature requests, and ideas can be added in the Discussions section
+- Project planning and task tracking can be managed using GitHub Projects, providing visibility into development priorities and ongoing work
